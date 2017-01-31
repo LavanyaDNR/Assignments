@@ -11,7 +11,22 @@ public class Elevator {
 	int noOfTrips;
 	boolean closed;//parameter for open/closed
 	boolean halt;// parameter for running/stopped
+	String direction; // whether its going up or down
+	int destinationFloor;
 	
+	
+	public int getDestinationFloor() {
+		return destinationFloor;
+	}
+	public void setDestinationFloor(int destinationFloor) {
+		this.destinationFloor = destinationFloor;
+	}
+	public String getDirection() {
+		return direction;
+	}
+	public void setDirection(String direction) {
+		this.direction = direction;
+	}
 	public int getFloorPosition() {
 		return floorPosition;
 	}
