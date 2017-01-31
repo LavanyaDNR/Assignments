@@ -1,7 +1,8 @@
 package challenge;
 
 public class ElevatorOperation {
-	
+
+	int noOfFloors = 10;
 	
 	ElevatorController elevatorController = new ElevatorController();
 	
